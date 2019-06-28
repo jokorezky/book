@@ -1,0 +1,37 @@
+.errortext {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+}
+.dv-star-rating-star i {
+  font-size: 30px;
+}
+.suggestions {
+  border: 1px solid #cccccc;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 8px;
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  margin-bottom: 15px;
+  width: 100%;
+  -webkit-appearance: listbox;
+  align-items: flex-start;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  vertical-align: text-bottom;
+  white-space: nowrap;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-image: initial;
+  border-radius: initial;
+}
+.suggestionActive {
+  padding: 0.5rem 0.4rem;
+  width: 100%;
+}

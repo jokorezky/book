@@ -1,0 +1,46 @@
+.pageWraper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.accountHead {
+  background-image: url("http://educhamp.themetrades.com/demo/assets/images/background/bg2.jpg");
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 500px;
+  min-width: 500px;
+  height: 100vh;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  vertical-align: middle;
+}
+.bgColor {
+  background-color: white;
+  opacity: 0.9;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #4c1864;
+  background: -moz-linear-gradient(45deg, #4c1864 0%, #3f189a 100%);
+  background: -webkit-linear-gradient(45deg, #4c1864 0%, #3f189a 100%);
+  background: linear-gradient(45deg, #4c1864 0%, #3f189a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c1864', endColorstr='#3f189a',GradientType=1 );
+}
+.logo {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) { 
+  .hide{
+    display: none
+  }
+ }

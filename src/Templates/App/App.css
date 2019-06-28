@@ -1,0 +1,40 @@
+.App {
+  width: 600px;
+  align-self: center;
+}
+
+.form {
+  padding: 1em;
+}
+
+label {
+  display: flex;
+  font-weight: 600;
+}
+
+button {
+  justify-content: flex-end;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.headingBx {
+  padding-left: 1em;
+}
+.boldText{
+  font-weight: bolder;
+  color: #ff5e15;
+}
+.ml10{
+  margin-left: 10px;
+}
+@media (max-width: 575.98px) { 
+  .App{
+    margin-top: 60px
+  }
+ }
